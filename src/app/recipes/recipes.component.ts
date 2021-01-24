@@ -15,12 +15,12 @@ export class RecipesComponent implements OnInit {
 
   ngOnInit(): void {
     //setting our listener
-    this.recipeService.recipeSelected
-    .subscribe( //on recipe selected, we can subscribe to it & get informed about any changes
-      (recipe: Recipe) => {
-        this.selectedRecipe = recipe;
-      }
-    ) 
+    // this.recipeService.recipeSelected
+    // .subscribe( //on recipe selected, we can subscribe to it & get informed about any changes
+    //   (recipe: Recipe) => {
+    //     this.selectedRecipe = recipe;
+    //   }
+    // ) 
   }
 
 }
